@@ -86,7 +86,7 @@ foundBook.ifPresent(book -> System.out.println("Found by ID: " + book));
 To check if a book is available:
 ```java
 boolean isAvailable = library.isBookAvailable(book);
-System.out.println("Is book available: " + isAvailable);
+System.out.println("Is book available: " + isAvailable); 
 
 
 ```
